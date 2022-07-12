@@ -2,11 +2,17 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="xdclass-1024-shop" />
+        <module name="xdclass-order-service" />
+        <module name="xdclass-user-service" />
+        <module name="xdclass-product-service" />
+        <module name="xdclass-gateway" />
+        <module name="xdclass-common" />
+        <module name="xdclass-coupon-service" />
       </profile>
     </annotationProcessing>
   </component>
